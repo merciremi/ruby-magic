@@ -1,7 +1,10 @@
+# Ruby allows us to open existing Classes and add stuff to them
 class Array
   # Implement my own .map method: simple version
   def my_map
     results = []
+    # Self refers to the array to which we apply .my_map
+    # Yield takes the block parameter `integer` as an argument
     self.each { |integer| result << yield(integer) }
     results
   end
