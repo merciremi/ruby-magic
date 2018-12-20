@@ -28,7 +28,7 @@ end
 my_class = MyClass.new
 my_class                  # #<MyClass:0x00007ffb510f3620>
 my_class.greeting         # Calling greeting() on explicit reveiver my_class
-p MyClass.hello           # undefined method `hello' for MyClass:Class (NoMethodError) => hello() is an instance method so when called on a Class, it doesn't have the right scope
+# MyClass.hello           # undefined method `hello' for MyClass:Class (NoMethodError) => hello() is an instance method so when called on a Class, it doesn't have the right scope
 
 # Only three keywords can change scope
 
